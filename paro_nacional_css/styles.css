@@ -1,0 +1,164 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container {
+    background-color: #EAEAEA;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.col-sm-12{
+    display: flex;
+    justify-content: center;
+}
+
+#tittle_1 {
+    text-align: center;
+    font-weight: bolder;
+}
+
+.padd_h_p {
+    padding-left: 20px;
+}
+
+.padd_h_2 {
+    padding-left: 20px;
+}
+
+.padd_h_ol {
+    padding-right: 20px;
+}
+
+.padd_h_3 {
+    padding-right: 20px;
+}
+
+.yellow {
+    color: #FFE28F;
+}
+
+.blue {
+    color: #6783F9;
+}
+
+.red {
+    color: #FC7272;
+}
+
+#row_bg {
+    background-color: #FFE1CA;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    align-items: center;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+#tittle_2 {
+    padding-bottom: 20px;
+}
+
+#tittle_3 {
+    padding-bottom: 20px;
+    text-align: right;
+}
+
+#tittle_4 {
+    padding-bottom: 20px;
+}
+
+#tittle_5 {
+    padding-bottom: 20px;
+}
+
+#row_bg_2 {
+    background-color: white;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    align-items: center;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+#color_1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to right, #FFD1C5, white);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    font-size: 30px;
+    margin-right: 10px;
+    margin-bottom: 1rem;
+}
+
+#link_fuente {
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+
+#row_bg_4 {
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+#link_center {
+    font-weight: 500;
+    justify-content: center;
+    color: black;
+    text-align: center;
+    margin: 0;
+}
+
+.animated_1 {
+    opacity: 0;
+    transition: all 2s;
+}
+
+.animated_2 {
+    opacity: 0;
+    transition: all 1s;
+}
+
+.animated_3 {
+    opacity: 0;
+    transition: all 1s;
+}
+
+.showUp {
+    animation: showUp 1.5s;
+}
+
+@keyframes showUp{
+    0% {
+        transform: translateY(60px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+.showLeft {
+    animation: showLeft 1.5s;
+}
+
+@keyframes showLeft{
+    0% {
+        transform: translateX(-60px);
+    }
+    100% {
+        transform: translateX(0px);
+    }
+}
