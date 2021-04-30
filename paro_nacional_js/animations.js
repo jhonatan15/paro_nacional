@@ -32,7 +32,6 @@ var animated_3 = document.querySelectorAll('.animated_3');
 function showScrollTwo() {
     var scrollTop = document.documentElement.scrollTop;
     for (var i=0; i < animated_3.length; i++ ) {
-        console.log(i);
         var animatedHigh = animated_3[i].offsetTop;
         if (animatedHigh - 400 < scrollTop) {
          animated_3[i].style.opacity = 1;
@@ -44,6 +43,15 @@ function showScrollTwo() {
 function showFunctions() {
     showScroll();
     showScrollTwo();
+}
+
+var animated_card = document.querySelectorAll(".animated_card");
+
+function changeOpacityCard() {
+    for (var i=0; i < animated_card.length; i++ ) {
+        animated_card[i].style.opacity = 1;
+        animated_card[i].classList.add("showUp");
+    }
 }
 
 window.addEventListener("scroll", showFunctions);
